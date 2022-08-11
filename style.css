@@ -21,22 +21,21 @@
 }
 
 .sidebar{
-    background-color: rgb(241, 95, 119);
+    /* background-color:rgb(179, 184, 184); */
+    background: linear-gradient(to right, #33cccc 0%, #ffccff 100%);
 
     
     /* width:434px; */
-    width:10vw;
+    width:8vw;
     height:90vh;
     
-    
-
     
 
 }
 
 .images{
 
-    background-color:rgb(83, 78, 72); 
+    background-color:rgb(101, 156, 115); 
     width:90vw;
     
 
@@ -44,6 +43,77 @@
 
 }
 
+
+
 .sidebar_buttons button{
     font-family: 'Rubik Dirt', cursive;
+    padding: 10%;
+    border: 1px solid;
+    border-radius: 10px;
+    
 }
+
+.sidebar_buttons{
+    padding:10%;
+    
+    
+}
+
+.loginform{
+    padding-top: 3%;
+}
+.form_entries{
+    padding:1%;
+    font-size:large;
+    
+}
+
+.images_container1{
+    display:flex;
+    justify-content:center;
+}
+.images_container2{
+    display:flex;
+    justify-content:center;
+}
+.img{
+    padding:20px;
+}
+
+.aboutme{
+    font-size: 150%;
+    padding: 2%;
+}
+
+.skills{
+    font-size: 150%;
+    padding: 2%;
+}
+
+.skill_list{
+    padding-top:2%;
+}
+.my_skills{
+    background-color: antiquewhite;
+    width:50%;
+   
+    border: 1px solid;
+}
+
+.np{
+    display:flex;
+    justify-content:center;
+    
+
+}
+
+.np button{
+    font-family: 'Rubik Dirt', cursive;
+    
+    border: 1px solid;
+    border-radius: 2px;
+    padding:1%;
+}
+
+
+
