@@ -1,3 +1,5 @@
+"use strict";
+
 var image_container=document.querySelector('.image_info')
 var btn_get_images=document.querySelector('.btn');
 

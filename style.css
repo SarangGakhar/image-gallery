@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
 .navbar{
@@ -10,4 +12,38 @@
     border: 2px solid;
     border-radius: 10px;
     
+}
+
+.container{
+    display:flex;
+    padding-top: .3%;
+
+}
+
+.sidebar{
+    background-color: rgb(241, 95, 119);
+
+    
+    /* width:434px; */
+    width:10vw;
+    height:90vh;
+    
+    
+
+    
+
+}
+
+.images{
+
+    background-color:rgb(83, 78, 72); 
+    width:90vw;
+    
+
+
+
+}
+
+.sidebar_buttons button{
+    font-family: 'Rubik Dirt', cursive;
 }
