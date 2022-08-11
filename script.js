@@ -46,8 +46,8 @@ var prev=document.getElementById('previous');
 
 next.addEventListener("click",function(){
 
-    if(j<=4990){
-        j+=8;
+    if(j<=4970){
+        j+=24;
 
         render_html(ourdata);
 
@@ -59,8 +59,8 @@ next.addEventListener("click",function(){
 
 prev.addEventListener("click",function(){
 
-    if(j>=8){
-        j=j-8;
+    if(j>=24){
+        j=j-24;
         render_html(ourdata);
         console.log("j--");
      }
@@ -74,7 +74,7 @@ function render_html(data){
     //var htmlstring=data[0];
 
 
-    for(var i=1;i<=8;i++){
+    for(var i=1;i<=24;i++){
         
         var sum=i+j;
 
@@ -93,8 +93,6 @@ function render_html(data){
 
 
     
-
-
   
 
 }
