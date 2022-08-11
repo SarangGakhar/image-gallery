@@ -35,7 +35,8 @@
 
 .images{
 
-    background-color:rgb(101, 156, 115); 
+    /* background-color:rgb(101, 156, 115);  */
+    background: linear-gradient(to left, #ffffff 0%, #99ccff 100%);
     width:90vw;
     
 
@@ -60,11 +61,18 @@
 }
 
 .loginform{
-    padding-top: 3%;
+    padding: 5%;
+    background: linear-gradient(to bottom, #999966 0%, #999966 100%);
+    width:100%;
+    
 }
 .form_entries{
     padding:1%;
-    font-size:large;
+    font-size:150%;
+    justify-content: center;
+    font-family: 'Rubik Dirt', cursive;
+    background-color: rgb(163, 166, 172);
+
     
 }
 
@@ -76,8 +84,16 @@
     display:flex;
     justify-content:center;
 }
+
+.images_container3{
+
+    display:flex;
+    justify-content:center;
+    
+}
+
 .img{
-    padding:20px;
+    padding:10px;
 }
 
 .aboutme{
@@ -112,8 +128,30 @@
     
     border: 1px solid;
     border-radius: 2px;
-    padding:1%;
+    padding: 1%;
+   
 }
+
+.np button:hover{
+    background-color:darkgray;
+}
+
+.click_info{
+    text-align: center;
+    padding:1%;
+    font-family: 'Rubik Dirt', cursive;
+
+    background: linear-gradient(to left, #666699 0%, #800000 100%);
+
+    margin-bottom: 0%;
+}
+
+.form_entries button{
+    font-family: 'Rubik Dirt', cursive;
+
+}
+
+
 
 
 
