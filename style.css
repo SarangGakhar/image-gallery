@@ -98,22 +98,39 @@
 
 .aboutme{
     font-size: 150%;
-    padding: 2%;
+    padding:2%;
+    font-family: 'Rubik Dirt', cursive;
+    display: flex;
+}
+
+.sarang_image{
+    width:70%;
+    
+}
+
+.sarang_image img{
+    width:90%;
+    height:95%;
+    border-radius: 20px;
 }
 
 .skills{
     font-size: 150%;
-    padding: 2%;
+    padding: 1%;
+    font-family: 'Rubik Dirt', cursive;
 }
 
 .skill_list{
-    padding-top:2%;
+    padding:.5%;
 }
 .my_skills{
     background-color: antiquewhite;
-    width:50%;
-   
+    width:90%;
+    /* padding:.5%; */
     border: 1px solid;
+    border-radius:10px;
+    padding-top: 1%;
+
 }
 
 .np{
@@ -150,6 +167,8 @@
     font-family: 'Rubik Dirt', cursive;
 
 }
+
+
 
 
 
