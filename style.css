@@ -168,7 +168,38 @@
 
 }
 
+.csl{
+    display:flex;
+}
 
+.bar{
+    margin-top: 1%;
+    height:20px;
+    background-color:#35352f;
+    border-radius: 10px;
+    padding-top: 1%;
+
+}
+
+.html_bar{
+    width:70%;
+}
+.css_bar{
+    width:50%;
+
+}
+
+.js_bar{
+    width:40%;
+}
+
+.cpp_bar{
+    width:70%;
+}
+
+.dsa_bar{
+    width:90%;
+}
 
 
 
